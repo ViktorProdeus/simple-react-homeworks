@@ -1,3 +1,55 @@
-.message {
+.wrapper {
+    display: flex;
+    align-items: flex-end;
+}
+.avatar {
+    flex-shrink: 0;
+    position: relative;
+    z-index: 10;
+    margin: 0 20px 0;
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+}
 
+.message {
+    position: relative;
+    padding: 15px 70px 15px 25px;
+    max-width: 320px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    border-end-start-radius: 0;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+.message::before {
+    content: "";
+    position: absolute;
+    left: -20px;
+    bottom: 0;
+    width: 20px;
+    height: 20px;
+
+    background: radial-gradient(circle at 0 0, transparent 20px, black 20px);
+}
+
+.avatar img {
+    width: 100%;
+    height: auto;
+}
+
+.avatarName {
+    color: plum;
+}
+
+.messageTime {
+    position: absolute;
+    right: 15px;
+    bottom: 20px;
+    color: darkgreen;
 }

@@ -1,3 +1,60 @@
-.someClass {
+:root {
+    --transtion-default: All 0.2s linear;
+}
 
+.wrapper {
+    padding: 20px;
+}
+
+.Affair {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.deleteBtn,
+.priority,
+.name {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.name {
+    color: green;
+}
+
+.priorityBtn {
+    margin-right: 10px;
+    width: 70px;
+    color: greenyellow;
+    background-color: forestgreen;
+    transition: var(--transtion-default);
+}
+
+.priorityBtn:hover {
+    background-color: darkseagreen;
+    cursor: pointer;
+}
+
+.deleteBtn {
+    color: greenyellow;
+    background-color: forestgreen;
+    transition: var(--transtion-default);
+}
+
+.deleteBtn:hover {
+    background-color: darkseagreen;
+    cursor: pointer;
+}
+
+.priority {
+    color: greenyellow;
+}
+
+.priorityRed {
+    color: red;
+}
+
+.priorityOrange {
+    color: darkorange;
 }
