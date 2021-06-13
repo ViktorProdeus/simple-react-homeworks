@@ -3,8 +3,8 @@ import Greeting from './Greeting'
 import {UserType} from './HW3'
 
 type GreetingContainerPropsType = {
-    users: UserType[] // need to fix any
-    addUserCallback: (name: string) => void // need to fix any
+    users: UserType[]
+    addUserCallback: (name: string) => void
 }
 
 // более простой и понятный для новичков
@@ -14,11 +14,11 @@ type GreetingContainerPropsType = {
 // уровень локальной логики
 const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUserCallback}) => { // деструктуризация пропсов
     const [name, setName] = useState<string>('') // need to fix any
-    const [error, setError] = useState<string>('') // need to fix any
+    const [error, setError] = useState<boolean>(false) // need to fix any
 
     const setNameCallback = (e: FocusEvent<HTMLInputElement>) => { // need to fix any
         setName(e.currentTarget.value)
-        setError('')
+        setError(false)
     }
 
     const addUser = () => {
@@ -29,7 +29,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
             alert(`Hello  ${valueNameTrim}!`)
 
         } else{
-            setError('Enter text')
+            setError(true)
         }
 
         setName('')

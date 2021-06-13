@@ -7,6 +7,7 @@ type AffairsPropsType = {
     data: AffairType[]
     setFilter: (filter: FilterType) => void
     deleteAffairCallback: (_id: number) => void
+    filter: FilterType
 }
 
 function Affairs(props: AffairsPropsType) {
@@ -22,16 +23,21 @@ function Affairs(props: AffairsPropsType) {
     const setHigh = () => props.setFilter('high');
     const setMiddle = () => props.setFilter('middle');
     const setLow = () => props.setFilter('low');
+    const allBtnActive = (props.filter === 'all') ? `${s.priorityBtn}  ${s.active}` : s.priorityBtn;
+    const highBtnActive = (props.filter === 'high') ? `${s.priorityBtn}  ${s.active}` : s.priorityBtn;
+    const middleBtnActive = (props.filter === 'middle') ? `${s.priorityBtn}  ${s.active}` : s.priorityBtn;
+    const lowBtnActive = (props.filter === 'low') ? `${s.priorityBtn}  ${s.active}` : s.priorityBtn;
+
 
     return (
         <div>
 
             {mappedAffairs}
 
-            <button className={s.priorityBtn} onClick={setAll}>All</button>
-            <button className={s.priorityBtn} onClick={setHigh}>High</button>
-            <button className={s.priorityBtn} onClick={setMiddle}>Middle</button>
-            <button className={s.priorityBtn} onClick={setLow}>Low</button>
+            <button className={allBtnActive} onClick={setAll}>All</button>
+            <button className={highBtnActive} onClick={setHigh}>High</button>
+            <button className={middleBtnActive} onClick={setMiddle}>Middle</button>
+            <button className={lowBtnActive} onClick={setLow}>Low</button>
         </div>
     )
 }

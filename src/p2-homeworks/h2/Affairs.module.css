@@ -51,6 +51,11 @@
     color: greenyellow;
 }
 
+.active:hover,
+.active {
+    background-color: indianred;
+}
+
 .priorityRed {
     color: red;
 }
