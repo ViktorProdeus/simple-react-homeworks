@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/simple-react-homeworks/static/css/main.d1744d76.chunk.css",
+    "main.css": "/simple-react-homeworks/static/css/main.7d0b8bfc.chunk.css",
     "main.js": "/simple-react-homeworks/static/js/main.9ebe5f72.chunk.js",
     "main.js.map": "/simple-react-homeworks/static/js/main.9ebe5f72.chunk.js.map",
     "runtime-main.js": "/simple-react-homeworks/static/js/runtime-main.f59815ab.js",
@@ -8,15 +8,15 @@
     "static/js/2.56182b62.chunk.js": "/simple-react-homeworks/static/js/2.56182b62.chunk.js",
     "static/js/2.56182b62.chunk.js.map": "/simple-react-homeworks/static/js/2.56182b62.chunk.js.map",
     "index.html": "/simple-react-homeworks/index.html",
-    "precache-manifest.57ce2395f01702571dabbeb5617b87ca.js": "/simple-react-homeworks/precache-manifest.57ce2395f01702571dabbeb5617b87ca.js",
+    "precache-manifest.b7526cee53ccb9c9b67cea63ad74879b.js": "/simple-react-homeworks/precache-manifest.b7526cee53ccb9c9b67cea63ad74879b.js",
     "service-worker.js": "/simple-react-homeworks/service-worker.js",
-    "static/css/main.d1744d76.chunk.css.map": "/simple-react-homeworks/static/css/main.d1744d76.chunk.css.map",
+    "static/css/main.7d0b8bfc.chunk.css.map": "/simple-react-homeworks/static/css/main.7d0b8bfc.chunk.css.map",
     "static/js/2.56182b62.chunk.js.LICENSE.txt": "/simple-react-homeworks/static/js/2.56182b62.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f59815ab.js",
     "static/js/2.56182b62.chunk.js",
-    "static/css/main.d1744d76.chunk.css",
+    "static/css/main.7d0b8bfc.chunk.css",
     "static/js/main.9ebe5f72.chunk.js"
   ]
 }
