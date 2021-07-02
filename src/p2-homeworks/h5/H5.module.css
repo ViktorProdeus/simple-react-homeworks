@@ -1,0 +1,53 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    transform: translateX(0);
+    /*max-width: 100%;*/
+    transition-duration: 500ms;
+}
+
+.wrapperClose {
+    /*max-width: 0;*/
+    display: flex;
+    transform: translateX(-225px);
+    overflow: hidden;
+    transition-duration: 500ms;
+
+}
+
+.nav {
+    align-self: center;
+    flex-shrink: 0;
+    width: 200px;
+    display: flex;
+    margin-right: 20px;
+}
+
+.navItem {
+    margin-right: 10px;
+}
+
+.link {
+    color: green;
+    text-decoration: none;
+}
+
+.link:hover {
+    border-bottom: green 2px solid;
+}
+
+.activeLink:hover,
+.activeLink {
+    color: red;
+    border-bottom: none;
+}
+
+.menuBtn {
+    border-radius: 50%;
+}
+
+.closeBtn {
+    flex-shrink: 0;
+    min-width: 90px;
+}
+

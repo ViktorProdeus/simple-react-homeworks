@@ -1,0 +1,30 @@
+.warningWrapper {
+    margin: 50px;
+    padding: 30px;
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+    background-color: red;
+    border: 5px solid gold;
+    border-radius: 20px;
+}
+
+.warningWrapper h2 {
+    margin: 0;
+    font-size: 34px;
+}
+.warningTitle {
+    color: white;
+    font-size: 34px;
+}
+
+.link {
+    color: gold;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+.link:active {
+    text-decoration: underline;
+}
