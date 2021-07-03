@@ -1,0 +1,11 @@
+.spanStyle {
+    display: flex;
+    align-items: center;
+    font-style: italic;
+    color: blue;
+    margin-bottom: 25px;
+}
+
+.spanStyle svg {
+    margin-right: 3px;
+}
