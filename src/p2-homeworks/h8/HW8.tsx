@@ -31,16 +31,27 @@ function HW8() {
     const sortDown = () => setPeople(homeWorkReducer(initialPeople, {type: 'sort', payload: 'down'}))
     const checkAge = () => setPeople(homeWorkReducer(initialPeople, {type: 'check', payload: 18}))
 
+    const wrapper = {
+        maxWidth: '402px',
+        minHeight: '180px',
+        display: 'flex',
+        flexDirection: 'column'
+    } as const
+
+    const offset = {
+        marginTop: 'auto'
+    } as const
+
     return (
         <div>
             <hr/>
             homeworks 8
 
-            <div style={{maxWidth: '402px'}}>
+            <div style={wrapper}>
                 {/*should work (должно работать)*/}
                 {finalPeople}
 
-                <div>
+                <div style={offset}>
                     <SuperButton onClick={sortUp}>sort up</SuperButton>
                     <SuperButton onClick={sortDown}>sort down</SuperButton>
                     <SuperButton onClick={checkAge}>check 18</SuperButton>

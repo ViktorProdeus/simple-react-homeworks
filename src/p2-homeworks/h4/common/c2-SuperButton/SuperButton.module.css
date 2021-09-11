@@ -8,6 +8,7 @@
     text-transform: uppercase;
     margin: 5px;
     transition: opacity 0.3s ease;
+    cursor: pointer;
 }
 
 .red {
@@ -17,19 +18,11 @@
 .default:disabled {
     color: rgba(255,255,255, 0.5);
     background: lightgray;
-}
-
-.default:hover:disabled {
-    opacity: 1;
     cursor: not-allowed;
-}
-
-.default:hover {
-    opacity: 0.6;
-    cursor: pointer;
+    border: 2px solid darkgray;
 }
 
 .default:active {
-    opacity: 0.8;
+    opacity: 0.6;
     cursor: pointer;
 }
