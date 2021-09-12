@@ -34,8 +34,12 @@ function Clock() {
     const month = get2digits(date.getMonth() + 1)
     const year = date.getFullYear()
 
-    const stringTime = `Time: ${hours}:${minutes}:${seconds}`
-    const stringDate = `Date: ${currentDate}:${month}:${year}`
+    const stringTime = `Time: ${hours}:${minutes}:${seconds}` //  date.toLocaleTimeString()
+    const stringDate = `Date: ${currentDate}:${month}:${year}` // date.toDateString()
+
+    const transition = `all 0.3s linear`
+    const opacityShow = {opacity: 1, transition,}
+    const opacityHide = {opacity: 0, transition,}
 
     return (
         <div>
@@ -48,11 +52,11 @@ function Clock() {
 
 
             {show ?
-                <div style={{opacity: 1, transition: 'all 01s linear'}}>
+                <div style={opacityShow}>
                     {stringDate}
                 </div>
                 :
-                <div style={{opacity: 0}}>
+                <div style={opacityHide}>
                     {stringDate}
                 </div>
             }
