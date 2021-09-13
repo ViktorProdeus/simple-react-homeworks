@@ -1,9 +1,9 @@
 import React from 'react'
-import WarningMessage from "./WarningMessage";
+import HW12 from "../../h12/HW12";
 
 function JuniorPlus() {
     return (
-        <WarningMessage pageTitle={'JuniorPlus'}/>
+        <HW12 />
     )
 }
 
