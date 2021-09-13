@@ -3,18 +3,19 @@ import s from "./HW12.module.css";
 import {useDispatch, useSelector} from "react-redux";
 import {AppStoreType} from "../h10/bll/store";
 import SuperSelect from "../h7/common/c5-SuperSelect/SuperSelect";
-import {changeThemeC} from "./bll/themeReducer";
+import {changeThemeC, ThemesType} from "./bll/themeReducer";
 import SuperRadio from "../h7/common/c6-SuperRadio/SuperRadio";
 
 const themes = ['dark', 'red', 'some'];
 
 function HW12() {
-    const theme = useSelector<AppStoreType, string>(state => state.themes.theme); // useSelector
+    const theme = useSelector<AppStoreType, ThemesType>(state => state.themes.theme); // useSelector
     const dispatch = useDispatch()
     // useDispatch, onChangeCallback
 
-    const onChangeCallback = (theme: string) => {
-        dispatch(changeThemeC(theme))
+
+    const onChangeCallback = (currentTheme: string) => {
+        dispatch(changeThemeC(currentTheme as ThemesType))
     }
 
     return (
@@ -40,8 +41,6 @@ function HW12() {
                     onChangeOption={onChangeCallback}
                 />
             </div>
-
-
             <hr/>
         </div>
     );
