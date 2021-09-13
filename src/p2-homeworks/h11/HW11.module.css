@@ -1,0 +1,8 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.value {
+    min-width: 30px;
+}
