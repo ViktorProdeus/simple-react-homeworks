@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/simple-react-homeworks/static/css/main.142eb7d8.chunk.css",
-    "main.js": "/simple-react-homeworks/static/js/main.851bb6de.chunk.js",
-    "main.js.map": "/simple-react-homeworks/static/js/main.851bb6de.chunk.js.map",
+    "main.css": "/simple-react-homeworks/static/css/main.c3052fc4.chunk.css",
+    "main.js": "/simple-react-homeworks/static/js/main.e914964f.chunk.js",
+    "main.js.map": "/simple-react-homeworks/static/js/main.e914964f.chunk.js.map",
     "runtime-main.js": "/simple-react-homeworks/static/js/runtime-main.f59815ab.js",
     "runtime-main.js.map": "/simple-react-homeworks/static/js/runtime-main.f59815ab.js.map",
-    "static/js/2.b80fd1c6.chunk.js": "/simple-react-homeworks/static/js/2.b80fd1c6.chunk.js",
-    "static/js/2.b80fd1c6.chunk.js.map": "/simple-react-homeworks/static/js/2.b80fd1c6.chunk.js.map",
+    "static/js/2.77e5d04f.chunk.js": "/simple-react-homeworks/static/js/2.77e5d04f.chunk.js",
+    "static/js/2.77e5d04f.chunk.js.map": "/simple-react-homeworks/static/js/2.77e5d04f.chunk.js.map",
     "index.html": "/simple-react-homeworks/index.html",
-    "precache-manifest.e1a71fbe0fdd91c4c3ebd813f65d1f6f.js": "/simple-react-homeworks/precache-manifest.e1a71fbe0fdd91c4c3ebd813f65d1f6f.js",
+    "precache-manifest.b2be4b8fe1bf802ef282e23d109d118c.js": "/simple-react-homeworks/precache-manifest.b2be4b8fe1bf802ef282e23d109d118c.js",
     "service-worker.js": "/simple-react-homeworks/service-worker.js",
-    "static/css/main.142eb7d8.chunk.css.map": "/simple-react-homeworks/static/css/main.142eb7d8.chunk.css.map",
-    "static/js/2.b80fd1c6.chunk.js.LICENSE.txt": "/simple-react-homeworks/static/js/2.b80fd1c6.chunk.js.LICENSE.txt",
+    "static/css/main.c3052fc4.chunk.css.map": "/simple-react-homeworks/static/css/main.c3052fc4.chunk.css.map",
+    "static/js/2.77e5d04f.chunk.js.LICENSE.txt": "/simple-react-homeworks/static/js/2.77e5d04f.chunk.js.LICENSE.txt",
+    "static/media/HW13.module.css": "/simple-react-homeworks/static/media/checkbox.1f021412.svg",
     "static/media/spinner.svg": "/simple-react-homeworks/static/media/spinner.9376e427.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.f59815ab.js",
-    "static/js/2.b80fd1c6.chunk.js",
-    "static/css/main.142eb7d8.chunk.css",
-    "static/js/main.851bb6de.chunk.js"
+    "static/js/2.77e5d04f.chunk.js",
+    "static/css/main.c3052fc4.chunk.css",
+    "static/js/main.e914964f.chunk.js"
   ]
 }
