@@ -1,0 +1,50 @@
+.wrapper {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    cursor: pointer;
+}
+
+.wrapper input {
+    margin-right: 20px;
+}
+
+.wrapper p {
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: bold;
+}
+
+.wrapper span {
+    text-transform: none;
+    font-weight: normal;
+    letter-spacing: normal;
+}
+
+.checkbox {
+    width: 80px;
+    height: 80px;
+    border: 10px solid black;
+    border-radius: 20px;
+}
+.checkbox:checked {
+    width: 80px;
+    height: 80px;
+    background-image: url("../../assets/images/checkbox.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.checkbox:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
